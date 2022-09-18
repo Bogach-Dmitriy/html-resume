@@ -1,0 +1,65 @@
+:root {
+    --primary-color:  #2f80ed;    // var(--primary-color);
+    --secondary-color:#333333;    // var(--secondary-color);
+  }
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.solid-line {
+    border-bottom: solid 1px var(--primary-color);
+}
+.header{
+    
+   // display: flex;
+    background-color: rgb(153, 201, 153);
+    margin-bottom: 20px;
+}
+
+.header author__info {
+    color: var(--primary-color);
+}
+
+.header author__vacancy {
+    color: var(--secondary-color);
+}
+
+.header photo {
+    
+    width: 150px;
+   // height: auto;
+   
+    border-radius: 8px;  
+    background: red;
+  }
+
+.author__info {
+    color: var(--primary-color);
+}
+.education__title {
+    color: var(--primary-color);
+}
+
+.experience__title {
+    color: var(--primary-color);
+}
+
+.question__title {
+    color: var(--primary-color);
+}
+
+.contacts__title {
+    color: var(--primary-color);
+}
+
+.contact {
+
+    &__type {
+        min-width: 110px;
+    }
+}
